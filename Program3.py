@@ -15,4 +15,14 @@ addtobag(mybag, newloot)
 
 '''
 def addtobag(bag, itemstoadd):
-  pass #delete this line when you start writing your code
+  d = {}
+  types_of_objects = []
+  for i in bag:
+    if i in types_of_objects:
+      d[1] = d[1] + 1
+    else:
+      d[1] = 1
+  for i in itemstoadd:
+    if i in types_of_objects:
+      d[1] = d[1] + 1
+    else: d[1] = 1
